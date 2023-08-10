@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to our online bookstore, where we offer a wide range of books in both Arabic and English, as well as a selection of distinguished novels. We strive to provide an enjoyable and easy shopping experience for our customers, where you can browse our available collection of books, choose what you like, and make payments online with ease and security. We guarantee the quality of our products and fast delivery. Visit our website and explore our diverse collection of books.">
+    <meta name="author" content="Arwa Kikar">
+   <link rel="stylesheet" href="style.css">
+   <link rel="website icon" type="png" href="img/U.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ 
+   <title>My Book</title>
+</head>
+<body>
+
+   <nav class="navbar" id="navbar">
+<div id="logo">
+    <a href="#">My<span>Book</span></a>
+</div>
+<ul class="menu" id="menu">
+    <li><a href="#home"><img src="img/المنزل.png"><span> Home</span></a></li>
+    <li><a href="#about"><img src="img/تعليق.png" ><span>About</span></a></li>
+    <li><a href="#Arabic"><img src="img/عربي.png"><span>Arabic Books</span></a></li>
+    <li><a href="#English"><img src="img/انجليزي.png"><span>English Books </span></a></li>
+    <li><a href="#contact"><img src="img/تواصل.png"><span>Contact</span></a></li></ul>
+ 
+
+    <div  class="menu-toggle" id="menu-toggle">
+    
+    <i class="fa fa-bars"></i>
+</div>
+</nav>
+<section class="home" id="home">
+    <div class="home-content">
+        <h2>Read more..<br>Rise more</h2>
+        <p>A combination of science,<br>culture and entertainment</p>
+        <button id="order-btn" class="btn">Order Now!</button>
+    </div>
+</section>
+<div class="modal" id="login-modal">
+    <form class="login-form" id="login-form">
+        <h3>Login</h3>
+        <div class="input-group">
+            
+            <input type="text" id="username" name="username" placeholder="username" required>
+        </div>
+        <div class="input-group">
+            
+            <input type="password" id="password" name="password" placeholder="password" required>
+        </div>
+        <button type="submit" class="btn">Login</button>
+    </form>
+</div>
+<section class="about" id="about">
+    <h2> About us</h2>
+    <div class="row">
+        
+        <div class="col">
+            <p>
+                Welcome to our online bookstore, where we offer a wide range of books in both Arabic and English, as well as a selection of distinguished novels. We strive to provide an enjoyable and easy shopping experience for our customers, where you can browse our available collection of books, choose what you like, and make payments online with ease and security. We guarantee the quality of our products and fast delivery. Visit our website and explore our diverse collection of books.
+            </p>
+        
+            <img src="img/B.png" >
+        </div>
+    </div>
+</section>
+<section class="Arabic" id="Arabic">
+    <h2>Arabic Books</h2>
+<div class="Arabic-items-container">
+    <div class="sh" onclick="showPreviousItem()"> ←</div>
+
+    <div class="Arabic-items">
+     <img src="img/لانك الله.jpg ">
+        <h3>لأنك الله</h3>
+        <p>كتاب “لأنك الله: رحلة إلى السماء السابعة” من تأليف الكاتب علي بن جابر الفيفي، ويتناول التأملات في بعض أسماء الله الحسنى وكيفية تطبيقها وفهمها في حياتنا اليومية . 
+            وقد تناول المؤلف في هذا الكتاب وصف تسعة من أسماء الله الحسنى: الشكور، الغفور، الهادي، الوكيل، الصمد، القريب، الجبار، اللطيف والحفيظ . وقد حرص المؤلف على جعل محتوى هذا الكتاب مفهومًا لمتوسط الثقافة، ويستطيع قراءته المريض على سريره، والحزين بين دموعه، والمحتاج وسط كروبه </p>
+    </div> 
+    <div class="Arabic-items">
+        <img src="img/فاتتني صلاة.jpg">
+        <h3>فاتتني صلاة</h3>
+        <p>كتاب “فاتتني صلاة” هو كتاب من تأليف الكاتب إسلام جمال، ويهدف إلى تحفيز القارئ على المواظبة على الصلاة والتخلص من الأفكار السلبية والأعذار التي تمنعه من ذلك 1. يتضمن الكتاب نصائح ووسائل وأسئلة وأجوبة وتجارب واقعية حول الصلاة وكيفية الخشوع والتعلق بها 1.
+
+            يعتبر هذا الكتاب من أفضل الكتب التي تناولت موضوع الصلاة، حيث يتناول كل الأفكار والأعذار والخواطر التي تختبئ داخل عقل القارئ حول الصلاة</p>
+     </div> 
+ <div class="Arabic-items">
+        <img src="img/على خطى إبراهيم .jpg">
+        <h3>على خطى إبراهيم</h3>
+        <p>“على خطى إبراهيم” هو كتاب من تأليف كفاح أبو هنود، وقد صدر عن دار عصير الكتب ضمن كتب ثقافة إسلامية متميزة 1. يتضمن الكتاب نصائح ووسائل وأسئلة وأجوبة وتجارب واقعية حول الإيمان والتضحية والثبات على الحق 2.
+
+            ومن خلال قراءة الكتاب، يمكن للقارئ التعرف على قصة إبراهيم عليه السلام وهجراته الثلاث، وسنواته الممتلئة بالتضحيات، وبناء بيت الله، ومشاهده العديدة من مواقف الثبات</p>
+     </div> 
+     <div class="sh"  onclick="showNextItem()"> →</div>
+</div>
+</div>
+</section>
+
+<section class="English" id="English">
+    <h2>English Books</h2>
+    <div class="English-items-container">
+        <div class="sh"  onclick="showPreviousItems()"> ←</div>
+        <div class="English-items">
+            <img src="img/lead.jpg">
+            <h3>First Lead youeself</h3>
+            <p>Lead Yourself First: Inspiring Leadership Through Solitude” is a book by Raymond M. Kethledge and Michael S. Erwin that explores the role of solitude in good leadership . The book includes profiles of historical and contemporary figures who have used solitude to lead with courage, creativity, and strength .</p> 
+        </div> 
+
+    
+        <div class="English-items">
+          <img src="img/happy.jpg">
+      <h3>Happiness Project</h3>
+        <p>The Happiness Project” is a book by Gretchen Rubin in which she chronicles her year-long journey to discover what leads to true contentment. The book draws from the wisdom of the ages, as well as contemporary science, as Rubin brings readers along on her quest to achieve greater happiness</p>
+       </div> 
+    
+
+        <div class="English-items">
+            <img src="img/7.jpg">
+       <h3>The 7 Habits of Highly Effective People</h3>
+    <p>is a book by Stephen Covey, first published in 1989.
+        The book presents seven principles that, if practiced as habits, are supposed to help a person become more effective.
+    </p> </div> 
+    <div class="sh" onclick="showNextItems()">→</div>
+</div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <div class="row">
+            <div class="col">
+                <p>If you have any questions or you get stuck,<br> please don't hesitate to get in touch with us.</p>
+                <form action="#" class="contact-form">
+                    <div>
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <textarea placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+               
+            </div>
+            <div class="col">
+                <ul class="contact-info">
+                    <li>
+                        <i class="fas fa-map-marker"></i> El Bab, Syria
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i> 0564775889
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i> infoLibrary@gmail.com
+                    </li>
+                </ul> 
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>
+           <span>  &copy;All rights reserved | Designed By Arwa Ki |</span>
+        </p>
+    </footer>
+    </body>
+  <script src="main.js"></script> 
+  </html>
